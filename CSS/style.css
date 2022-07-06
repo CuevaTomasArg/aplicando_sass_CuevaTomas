@@ -1,0 +1,469 @@
+/*12*/
+.imagenCarruselXL {
+  width: 600px;
+  height: auto;
+}
+
+s * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  margin: 16px 32px;
+}
+
+.navbar {
+  background-color: #458890;
+}
+.navbar div {
+  background-color: #458890;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icono {
+  width: 32px;
+}
+
+.mobile {
+  margin-top: 54px;
+}
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile h1, .mobile p {
+    text-align: center;
+  }
+  .mobile h1 {
+    width: 50%;
+    display: inline-block;
+  }
+}
+.mobile .listaPresentacion {
+  list-style-type: none;
+}
+.mobile .listaPresentacion li {
+  text-align: center;
+}
+.mobile .listaPresentacion li ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.mobile .listaPresentacion li ul li {
+  font-family: Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1.5px solid #000;
+  border-radius: 16px;
+  padding: 2px 4px;
+}
+.mobile .listaPresentacion li ul li a {
+  color: #d1e9ff;
+}
+
+.seccionCards3x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .seccionCards3x3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .seccionCards3x3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.presentacion {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+  align-items: center;
+  justify-items: center;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .presentacion {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 600px;
+    margin: 10px auto;
+  }
+  .presentacion p {
+    text-align: center;
+  }
+}
+.presentacion .derecha, .presentacion .izquierda {
+  display: flex;
+  border: 1.5px solid #000;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 375px) and (max-width: 900px) {
+  .presentacion .derecha, .presentacion .izquierda {
+    flex-direction: column;
+    margin: 16px auto;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.presentacion .derecha img, .presentacion .izquierda img {
+  width: 80%;
+}
+@media only screen and (min-width: 375px) and (max-width: 900px) {
+  .presentacion .derecha img, .presentacion .izquierda img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .presentacion .derecha img p, .presentacion .izquierda img p {
+    text-align: center;
+  }
+}
+.presentacion .derecha p, .presentacion .izquierda p {
+  margin: 16px;
+}
+
+.derecha {
+  margin: 32px 256px 32px 64px;
+  flex-direction: row;
+}
+.derecha img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.izquierda {
+  margin: 32px 64px 32px 256px;
+  flex-direction: row-reverse;
+}
+.izquierda img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.seccionPropuestas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+@media only screen and (min-width: 372px) and (max-width: 600px) {
+  .seccionPropuestas {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    width: 20%;
+  }
+  .seccionPropuestas div {
+    width: 300px;
+  }
+}
+.seccionPropuestas > div {
+  width: 600px;
+  transition: all 2s;
+}
+.seccionPropuestas > div:hover {
+  transform: scale(1.05);
+}
+.seccionPropuestas img {
+  width: 100%;
+  height: auto;
+}
+
+/*12*/
+.imagenCarruselXL {
+  width: 600px;
+  height: auto;
+}
+
+s * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  margin: 16px 32px;
+}
+
+.navbar {
+  background-color: #458890;
+}
+.navbar div {
+  background-color: #458890;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icono {
+  width: 32px;
+}
+
+footer {
+  background-color: #458890;
+}
+footer .listaHorizontal, footer .lista, footer .listaFooter1 {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+footer .listaHorizontal li, footer .lista li, footer .listaFooter1 li {
+  margin: 12px;
+}
+footer .listaHorizontal li a, footer .lista li a, footer .listaFooter1 li a {
+  color: #d1e9ff;
+}
+footer .lista, footer .listaFooter1 {
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+  justify-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+footer .lista p, footer .listaFooter1 p {
+  text-align: center;
+}
+footer .listaHorizontal {
+  flex-direction: row;
+}
+
+/*12*/
+.imagenCarruselXL {
+  width: 600px;
+  height: auto;
+}
+
+s * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  margin: 16px 32px;
+}
+
+.navbar {
+  background-color: #458890;
+}
+.navbar div {
+  background-color: #458890;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icono {
+  width: 32px;
+}
+
+.formulario {
+  margin: 128px 128px 64px 128px;
+}
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .formulario {
+    margin: 64px;
+  }
+}
+.formulario form {
+  border: 1.5px solid #000;
+  border-radius: 120x;
+}
+.formulario form .input {
+  width: 80%;
+  margin: 16px;
+}
+
+/*12*/
+.imagenCarruselXL {
+  width: 600px;
+  height: auto;
+}
+
+s * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  margin: 16px 32px;
+}
+
+.navbar {
+  background-color: #458890;
+}
+.navbar div {
+  background-color: #458890;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icono {
+  width: 32px;
+}
+
+.h1programas {
+  margin: 16px;
+}
+
+.programas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 54px;
+}
+.programas > div:hover {
+  transition: all 2s;
+  transform: scale(1.05);
+}
+@media only screen and (min-width: 375px) and (max-width: 900px) {
+  .programas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .programas > div {
+    margin: 12px 0px;
+  }
+}
+
+.seccionCardsHorizontales {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+.seccionCardsHorizontales > div {
+  margin: 32px 64px;
+}
+@media only screen and (min-width: 375px) and (max-width: 900px) {
+  .seccionCardsHorizontales > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.seccionCardsHorizontales > div .imagenProductoM {
+  width: 232.883px;
+  height: auto;
+  object-fit: cover;
+}
+
+/*12*/
+.imagenCarruselXL {
+  width: 600px;
+  height: auto;
+}
+
+s * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  margin: 16px 32px;
+}
+
+.navbar {
+  background-color: #458890;
+}
+.navbar div {
+  background-color: #458890;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icono {
+  width: 32px;
+}
+
+.seccionCards3x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 32px;
+  column-gap: 64px;
+  justify-items: center;
+  align-items: center;
+}
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .seccionCards3x2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

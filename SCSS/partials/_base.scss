@@ -1,0 +1,78 @@
+@mixin transformacion($segundo,$transform) {
+    transition: all $segundo;
+    transform: $transform;
+}
+
+$lista-colores:
+#eae9e9, /*1*/
+#e2e8f6, /*2*/
+#b9dcf0, /*3*/
+#6bb4dd, /*4*/
+#29669c, /*5*/
+#458890, /*6*/
+#96d9cd, /*7*/
+#5a7588, /*8*/
+#5787b7, /*9*/
+#8cbef7, /*10*/
+#d1e9ff, /*11*/
+#9ae47d; /*12*/
+$tipografias-strongs:
+helvetica,
+system-ui,
+'segoe UI';
+$tipografias-light: 
+Roboto, 
+Oxygen,
+Ubuntu,
+Cantarell,
+'Open Sans',
+'Helvetica Neue',
+sans-serif;
+
+
+$bordes:
+1px
+2px,
+3px;
+
+$border-radius:
+10px,
+20px,
+50%;
+$centrar:auto,center;
+@mixin CallToAction {
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1.5px solid #000;
+    border-radius: 16px;
+    padding: 2px 4px;
+}
+.imagenCarruselXL{
+    width: 600px;
+    height: auto;
+}s
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: nth($lista-colores , 1 );
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:nth($tipografias-strongs , 1 );
+    margin: 16px 32px;
+}
+.navbar{
+    background-color: nth($lista-colores , 6 );
+    div{
+        background-color: nth($lista-colores , 6 );
+    }
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icono{
+    width:32px;
+}

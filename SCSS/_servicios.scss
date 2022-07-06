@@ -1,0 +1,41 @@
+@import "partials/base";
+.h1programas{
+    margin: 16px;
+}
+.programas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 54px;
+    >div:hover{
+        @include transformacion(2s,scale(1.05));
+    }
+    @media only screen and(min-width:375px) and(max-width:900px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        >div{
+            margin: 12px 0px;
+        }
+    }
+}
+.seccionCardsHorizontales{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+    >div{
+        margin: 32px 64px;
+        @media only screen and (min-width:375px) and(max-width:900px){
+            display: flex;
+            flex-direction: column;
+        }
+        .imagenProductoM{
+            width: 232.883px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}

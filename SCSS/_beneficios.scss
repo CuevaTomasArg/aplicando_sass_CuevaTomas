@@ -1,0 +1,17 @@
+@import "partials/base";
+.seccionCards3x2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 32px;
+    column-gap: 64px;
+    justify-items: center;
+    align-items: center;
+    @media only screen and(min-width:375px)and (max-width:600px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;        
+    }
+}

@@ -1,0 +1,15 @@
+@import "partials/base";
+.formulario{
+    margin:128px 128px 64px 128px;
+    @media only screen and(min-width:375px) and (max-width:600px){
+        margin: 64px;
+    }
+    form{
+        border: 1.5px solid #000;
+        border-radius: 120x;
+        .input{
+            width: 80%;
+            margin: 16px;
+        }
+    }
+}
