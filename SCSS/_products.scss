@@ -1,0 +1,46 @@
+@import "partials/base";
+.muestraProducto{
+    display: grid;
+    grid-template-areas:
+    "menu menu menu menu" 
+    "img img img article"
+    "img img img article"
+    "img img img article"
+    "otro otro otro article"
+    "principal principal principal article"
+    "pregunta pregunta pregunta pregunta" ;
+    margin: 64px auto;
+     .links{
+         display: grid;
+         grid-area: menu;
+         grid-template-columns: 1fr 2fr 1fr;
+         .volver{
+             @extend %enlaces;
+         }
+         .opiniones{
+              @extend %enlaces;
+         }
+         .preguntas{
+              @extend %enlaces;
+         }
+     }
+     .producto{
+        grid-area: img;
+    }
+    .carateristicas{
+        grid-area: article;
+    }
+    .otrosRecomendados{
+        grid-area: otro;
+    }
+    .principalesCaracteristicas{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(6,1fr);
+        grid-area: principal;
+   }
+   .otrosDetalles{
+        grid-area: pregunta;
+   }
+
+}

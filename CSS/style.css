@@ -1,4 +1,14 @@
 /*12*/
+.muestraProducto .links .preguntas, .muestraProducto .links .opiniones, .muestraProducto .links .volver {
+  color: #d1e9ff;
+  text-decoration: none;
+  font-family: helvetica, system-ui, "segoe UI";
+}
+
+main {
+  margin: 54px 12px;
+}
+
 .imagenCarruselXL {
   width: 600px;
   height: auto;
@@ -198,6 +208,16 @@ p {
 }
 
 /*12*/
+.muestraProducto .links .preguntas, .muestraProducto .links .opiniones, .muestraProducto .links .volver {
+  color: #d1e9ff;
+  text-decoration: none;
+  font-family: helvetica, system-ui, "segoe UI";
+}
+
+main {
+  margin: 54px 12px;
+}
+
 .imagenCarruselXL {
   width: 600px;
   height: auto;
@@ -266,6 +286,16 @@ footer .listaHorizontal {
 }
 
 /*12*/
+.muestraProducto .links .preguntas, .muestraProducto .links .opiniones, .muestraProducto .links .volver {
+  color: #d1e9ff;
+  text-decoration: none;
+  font-family: helvetica, system-ui, "segoe UI";
+}
+
+main {
+  margin: 54px 12px;
+}
+
 .imagenCarruselXL {
   width: 600px;
   height: auto;
@@ -319,9 +349,17 @@ p {
 .formulario form .input {
   width: 80%;
   margin: 16px;
+} /*12*/
+.muestraProducto .links .preguntas, .muestraProducto .links .opiniones, .muestraProducto .links .volver {
+  color: #d1e9ff;
+  text-decoration: none;
+  font-family: helvetica, system-ui, "segoe UI";
 }
 
-/*12*/
+main {
+  margin: 54px 12px;
+}
+
 .imagenCarruselXL {
   width: 600px;
   height: auto;
@@ -409,6 +447,16 @@ p {
 }
 
 /*12*/
+.muestraProducto .links .preguntas, .muestraProducto .links .opiniones, .muestraProducto .links .volver {
+  color: #d1e9ff;
+  text-decoration: none;
+  font-family: helvetica, system-ui, "segoe UI";
+}
+
+main {
+  margin: 54px 12px;
+}
+
 .imagenCarruselXL {
   width: 600px;
   height: auto;
@@ -464,6 +512,84 @@ p {
     align-items: center;
     justify-content: center;
   }
+}
+
+/*12*/
+.muestraProducto .links .preguntas, .muestraProducto .links .opiniones, .muestraProducto .links .volver {
+  color: #d1e9ff;
+  text-decoration: none;
+  font-family: helvetica, system-ui, "segoe UI";
+}
+
+main {
+  margin: 54px 12px;
+}
+
+.imagenCarruselXL {
+  width: 600px;
+  height: auto;
+}
+
+s * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #eae9e9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+  margin: 16px 32px;
+}
+
+.navbar {
+  background-color: #458890;
+}
+.navbar div {
+  background-color: #458890;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.icono {
+  width: 32px;
+}
+
+.muestraProducto {
+  display: grid;
+  grid-template-areas: "menu menu menu menu" "img img img article" "img img img article" "img img img article" "otro otro otro article" "principal principal principal article" "pregunta pregunta pregunta pregunta";
+  margin: 64px auto;
+}
+.muestraProducto .links {
+  display: grid;
+  grid-area: menu;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.muestraProducto .producto {
+  grid-area: img;
+}
+.muestraProducto .carateristicas {
+  grid-area: article;
+}
+.muestraProducto .otrosRecomendados {
+  grid-area: otro;
+}
+.muestraProducto .principalesCaracteristicas {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-area: principal;
+}
+.muestraProducto .otrosDetalles {
+  grid-area: pregunta;
 }
 
 /*# sourceMappingURL=style.css.map */
